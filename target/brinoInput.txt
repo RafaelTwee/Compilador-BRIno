@@ -1,0 +1,18 @@
+led porta 9
+potenciometro porta A0
+
+importar Servo
+
+inteiro a = 12
+config {
+    modoPino(led, saida)
+    repetir(9) {
+        ligar(led)
+        esperar(100)
+        desligar(led)
+        esperar(100)
+    }
+    a = lerAnalog(potenciometro)
+    
+}
+loop {}

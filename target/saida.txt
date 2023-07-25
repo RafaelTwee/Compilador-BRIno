@@ -1,0 +1,17 @@
+#define led 9
+#define potenciometro A0
+#include <Servo.h>
+int a = 12;
+void setup() {
+    pinMode(led, OUTPUT);
+    for (int i = 0; i < 9; i++) {
+        digitalWrite(led, HIGH);
+        delay(100);
+        digitalWrite(led, LOW);
+        delay(100);
+    }
+    a = analogRead(potenciometro);
+}
+
+void loop() {
+}
