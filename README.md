@@ -50,7 +50,7 @@ desligar(9) // Desliga o pino digital 9
 
 #### Modo do Pino
 
-Para definir o modo de um pino digital (entrada ou saída), você pode utilizar o comando `pinmode`. Por exemplo:
+Para definir o modo de um pino digital (entrada ou saída), você pode utilizar o comando `modoPino`. Por exemplo:
 
 ```brino
 modoPino(2, saida)   // Define o pino 2 como saída
