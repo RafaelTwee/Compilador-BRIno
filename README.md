@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Brino é uma linguagem de programação desenvolvida para facilitar a programação de placas Arduino, utilizando uma sintaxe em português que torna o código mais legível e acessível para iniciantes.
+Brino é uma linguagem de programação em desenvolvimento que tem o objetivod de facilitar a programação de placas Arduino, utilizando uma sintaxe em português que torna o código mais legível e acessível para iniciantes.
 
 ## Principais Funções
 
