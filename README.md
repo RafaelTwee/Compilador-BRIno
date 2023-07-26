@@ -11,10 +11,10 @@ Brino é uma linguagem de programação desenvolvida para facilitar a programaç
 Para declarar variáveis em Brino, você pode utilizar as palavras-chave `inteiro`, `real`, `binario` e `texto`, seguidas do nome da variável e do valor atribuído. Por exemplo:
 
 ```brino
-inteiro contador = 0;
-real temperatura = 25.5;
-binario ledLigado = verdadeiro;
-texto mensagem = 'Olá, mundo!';
+inteiro contador = 0
+real temperatura = 25.5
+binario ledLigado = verdadeiro
+texto mensagem = 'Olá, mundo!'
 ```
 
 ### Comandos de Controle
@@ -26,7 +26,6 @@ O comando `repetir` permite criar um loop que executa um bloco de código um nú
 ```brino
 repetir(5) {
     // Bloco de código a ser repetido 5 vezes
-    escrever("Olá!");
 }
 ```
 
@@ -45,8 +44,8 @@ esperar(1000); // Espera 1 segundo
 Para controlar pinos digitais (saída), você pode utilizar os comandos `ligar` e `desligar`. Por exemplo:
 
 ```brino
-ligar(13);   // Liga o pino digital 13
-desligar(9); // Desliga o pino digital 9
+ligar(13)   // Liga o pino digital 13
+desligar(9) // Desliga o pino digital 9
 ```
 
 #### Modo do Pino
@@ -54,26 +53,26 @@ desligar(9); // Desliga o pino digital 9
 Para definir o modo de um pino digital (entrada ou saída), você pode utilizar o comando `pinmode`. Por exemplo:
 
 ```brino
-pinmode(2, saida);   // Define o pino 2 como saída
-pinmode(7, entrada); // Define o pino 7 como entrada
+modoPino(2, saida)   // Define o pino 2 como saída
+modoPino(7, entrada) // Define o pino 7 como entrada
 ```
 
 ### Comandos de Entrada e Saída Analógica
 
 #### Ler Analógico
 
-O comando `leranalogico` permite ler um valor analógico de um pino específico. O valor lido será armazenado em uma variável. Por exemplo:
+O comando `lerAnalog` permite ler um valor analógico de um pino específico. O valor lido será armazenado em uma variável. Por exemplo:
 
 ```brino
-inteiro valorLido = leranalogico(A0); // Lê o valor analógico do pino A0
+inteiro valorLido = lerAnalog(A0); // Lê o valor analógico do pino A0
 ```
 
 #### Escrever Analógico
 
-O comando `escreveranalogico` permite escrever um valor analógico em um pino PWM (Pulse-Width Modulation). Por exemplo:
+O comando `escreverAnalog` permite escrever um valor analógico em um pino PWM (Pulse-Width Modulation). Por exemplo:
 
 ```brino
-escreveranalogico(9, 128); // Escreve o valor analógico 128 no pino PWM 9
+escreverAnalog(9, 128); // Escreve o valor analógico 128 no pino PWM 9
 ```
 
 ### Importar Bibliotecas
