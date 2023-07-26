@@ -34,7 +34,7 @@ repetir(5) {
 O comando `esperar` pausa a execução do programa por um tempo determinado, em milissegundos. Por exemplo:
 
 ```brino
-esperar(1000); // Espera 1 segundo
+esperar(1000) // Espera 1 segundo
 ```
 
 ### Comandos de Controle de Saída e Entrada
@@ -64,7 +64,7 @@ modoPino(7, entrada) // Define o pino 7 como entrada
 O comando `lerAnalog` permite ler um valor analógico de um pino específico. O valor lido será armazenado em uma variável. Por exemplo:
 
 ```brino
-inteiro valorLido = lerAnalog(A0); // Lê o valor analógico do pino A0
+inteiro valorLido = lerAnalog(A0) // Lê o valor analógico do pino A0
 ```
 
 #### Escrever Analógico
@@ -72,7 +72,7 @@ inteiro valorLido = lerAnalog(A0); // Lê o valor analógico do pino A0
 O comando `escreverAnalog` permite escrever um valor analógico em um pino PWM (Pulse-Width Modulation). Por exemplo:
 
 ```brino
-escreverAnalog(9, 128); // Escreve o valor analógico 128 no pino PWM 9
+escreverAnalog(9, 128) // Escreve o valor analógico 128 no pino PWM 9
 ```
 
 ### Importar Bibliotecas
@@ -80,7 +80,7 @@ escreverAnalog(9, 128); // Escreve o valor analógico 128 no pino PWM 9
 Você pode importar bibliotecas Arduino no formato `importar nomedabiblioteca` para utilizar funções adicionais. Por exemplo:
 
 ```brino
-importar Servo; // Importa a biblioteca Servo para controlar servos motores
+importar Servo // Importa a biblioteca Servo para controlar servos motores
 ```
 
 ## Conclusão
